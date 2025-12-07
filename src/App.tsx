@@ -200,8 +200,7 @@ const Hero = () => {
 
         {/* Headline */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-8 max-w-5xl mx-auto leading-tight">
-          Book 20+ New Patients Per Month<br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-b from-brand-300 to-brand-600 relative">
+          Book 20+ New Patients Per Month, <span className="text-transparent bg-clip-text bg-gradient-to-b from-brand-300 to-brand-600 relative">
             Guaranteed or You Pay $0
             {/* Subtle underline SVG */}
             <svg className="absolute w-full h-3 -bottom-2 left-0 text-brand-500 opacity-60" viewBox="0 0 100 10" preserveAspectRatio="none">
@@ -212,7 +211,7 @@ const Hero = () => {
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mx-auto mb-12 leading-relaxed">
-          AI-powered reception and patient reactivation system that fills your schedule with qualified appointments—or you don't pay. No contracts, no setup fees, just guaranteed results.
+          AI-powered reception and patient reactivation system that fills your schedule with qualified appointments or you don't pay. No contracts, no setup fees, just guaranteed results.
         </p>
 
         {/* CTAs */}
