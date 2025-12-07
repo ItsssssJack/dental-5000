@@ -200,9 +200,9 @@ const Hero = () => {
 
         {/* Headline */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-8 max-w-5xl mx-auto leading-tight">
-          Book 20+ New Patients Per Month—<br />
+          Book 20+ New Patients Per Month<br />
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-brand-300 to-brand-600 relative">
-            Guaranteed Or You Pay $0
+            Guaranteed or You Pay $0
             {/* Subtle underline SVG */}
             <svg className="absolute w-full h-3 -bottom-2 left-0 text-brand-500 opacity-60" viewBox="0 0 100 10" preserveAspectRatio="none">
               <path d="M0 5 Q 50 12 100 5" stroke="currentColor" strokeWidth="2" fill="transparent" />
