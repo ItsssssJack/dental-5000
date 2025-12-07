@@ -200,7 +200,7 @@ const Hero = () => {
 
         {/* Headline */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-8 max-w-5xl mx-auto leading-tight">
-          Book 20+ New Patients Per Month, <span className="text-transparent bg-clip-text bg-gradient-to-b from-brand-300 to-brand-600 relative">
+          Book 27+ New Patients Per Month, <span className="text-transparent bg-clip-text bg-gradient-to-b from-brand-300 to-brand-600 relative">
             Guaranteed or You Pay $0
             {/* Subtle underline SVG */}
             <svg className="absolute w-full h-3 -bottom-2 left-0 text-brand-500 opacity-60" viewBox="0 0 100 10" preserveAspectRatio="none">
@@ -264,9 +264,9 @@ const ValueProp = () => {
     },
     {
       title: "Guaranteed Results",
-      desc: "We guarantee 20+ new patient appointments per month or you pay nothing. No contracts, no risk. We only win when you win.",
+      desc: "We guarantee 27+ new patient appointments per month or you pay nothing. No contracts, no risk. We only win when you win.",
       icon: <CalendarCheck className="text-brand-500" size={24} />,
-      stat: "20+ Patients"
+      stat: "27+ Patients"
     },
     {
       title: "Database Reactivation",
@@ -339,7 +339,7 @@ const Process = () => {
                     {[
                         { title: "Quick Setup", desc: "We connect to your phone system and practice management software in under 24 hours. No technical skills required.", step: "01" },
                         { title: "AI Training", desc: "Our AI learns your practice's services, availability, and preferences. We train it to sound natural and book appointments accurately.", step: "02" },
-                        { title: "Guaranteed Results", desc: "Your AI starts answering calls and reactivating patients. Hit 20+ appointments or pay nothing. It's that simple.", step: "03" }
+                        { title: "Guaranteed Results", desc: "Your AI starts answering calls and reactivating patients. Hit 27+ appointments or pay nothing. It's that simple.", step: "03" }
                     ].map((item, i) => (
                         <div key={i} className="relative flex flex-col items-center text-center group">
                             {/* Circle */}
