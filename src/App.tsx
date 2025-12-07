@@ -195,14 +195,14 @@ const Hero = () => {
           <span className="relative flex h-2 w-2">
             <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
           </span>
-          WHITE-LABEL AI FOR DENTAL AGENCIES
+          AI AUTOMATION FOR DENTAL PRACTICES
         </div>
 
         {/* Headline */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-8 max-w-5xl mx-auto leading-tight">
-          Help Your Clients Book 20+ Patients Per Month—<br />
+          Book 20+ New Patients Per Month—<br />
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-brand-300 to-brand-600 relative">
-            Guaranteed Or They Pay $0
+            Guaranteed Or You Pay $0
             {/* Subtle underline SVG */}
             <svg className="absolute w-full h-3 -bottom-2 left-0 text-brand-500 opacity-60" viewBox="0 0 100 10" preserveAspectRatio="none">
               <path d="M0 5 Q 50 12 100 5" stroke="currentColor" strokeWidth="2" fill="transparent" />
@@ -212,7 +212,7 @@ const Hero = () => {
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-zinc-300 max-w-3xl mx-auto mb-12 leading-relaxed">
-          The white-label AI platform that delivers guaranteed results for your dental practice clients. Scale to 50+ clients without adding headcount. Turn one-time projects into predictable recurring revenue.
+          AI-powered reception and patient reactivation system that fills your schedule with qualified appointments—or you don't pay. No contracts, no setup fees, just guaranteed results.
         </p>
 
         {/* CTAs */}
@@ -221,31 +221,31 @@ const Hero = () => {
             {/* Animated glow ring */}
             <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 via-brand-400 to-brand-500 rounded-lg opacity-30 blur-xl group-hover:opacity-50 transition-opacity duration-300 animate-pulse-slow" />
             <span className="flex items-center justify-center gap-2 relative z-10">
-              Book Agency Demo <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+              Book Your Demo <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </span>
           </button>
 
           <button className="w-full sm:w-auto px-8 py-4 bg-transparent border border-zinc-700 text-zinc-300 rounded-lg font-medium hover:bg-zinc-900 hover:text-white hover:border-zinc-600 hover:shadow-[0_0_30px_-5px_rgba(249,115,22,0.3)] transition-all flex items-center justify-center gap-2">
-            View Agency Pricing <ArrowUpRight size={16} />
+            Calculate Lost Revenue <ArrowUpRight size={16} />
           </button>
         </div>
 
-        {/* Agency Trust Line */}
+        {/* Trust Line */}
         <div className="mt-24 pt-8 border-t border-dashed border-zinc-800/50 w-full max-w-5xl flex flex-col items-center">
-           <p className="text-xs text-zinc-500 font-mono uppercase tracking-widest mb-6">Trusted by dental marketing agencies nationwide</p>
+           <p className="text-xs text-zinc-500 font-mono uppercase tracking-widest mb-6">Trusted by dental practices nationwide</p>
            <div className="flex gap-12 md:gap-20 opacity-40 hover:opacity-100 transition-opacity duration-500 items-center justify-center">
-              {/* Placeholder for agency stats or logos */}
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">127+</div>
-                <div className="text-xs text-zinc-500 uppercase mt-1">Agency Partners</div>
-              </div>
+              {/* Stats */}
               <div className="text-center">
                 <div className="text-3xl font-bold text-white">2,400+</div>
-                <div className="text-xs text-zinc-500 uppercase mt-1">Practice Clients</div>
+                <div className="text-xs text-zinc-500 uppercase mt-1">Practices Served</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-white">95%</div>
-                <div className="text-xs text-zinc-500 uppercase mt-1">Client Retention</div>
+                <div className="text-3xl font-bold text-white">48k+</div>
+                <div className="text-xs text-zinc-500 uppercase mt-1">Appointments Booked</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-white">$127M+</div>
+                <div className="text-xs text-zinc-500 uppercase mt-1">Revenue Generated</div>
               </div>
            </div>
         </div>
@@ -258,28 +258,28 @@ const Hero = () => {
 const ValueProp = () => {
   const features = [
     {
-      title: "White-Label Platform",
-      desc: "Your brand, your clients, our technology. Fully customizable dashboard, client portal, and reporting. No DentaScale branding—just pure agency value.",
-      icon: <Sparkles className="text-brand-500" size={24} />,
-      stat: "100% Branded"
+      title: "AI-Powered Reception",
+      desc: "Never miss a patient call again. Our AI receptionist answers calls 24/7, books appointments, and handles FAQs with natural conversation. No more voicemail tags or missed opportunities.",
+      icon: <Bot className="text-brand-500" size={24} />,
+      stat: "24/7 Coverage"
     },
     {
-      title: "Predictable Client Results",
-      desc: "Stop overpromising and underdelivering. Our guarantee gives your clients 20+ new patients or they pay nothing. Higher retention, better testimonials, easier upsells.",
+      title: "Guaranteed Results",
+      desc: "We guarantee 20+ new patient appointments per month or you pay nothing. No contracts, no risk. We only win when you win.",
       icon: <CalendarCheck className="text-brand-500" size={24} />,
       stat: "20+ Patients"
     },
     {
-      title: "Scale Without Headcount",
-      desc: "Serve 50+ dental practice clients without hiring coordinators, SDRs, or customer success staff. Our AI handles calls, bookings, and follow-ups 24/7.",
+      title: "Database Reactivation",
+      desc: "Turn your inactive patient database into booked appointments. Our AI reaches out to dormant patients and fills your schedule with qualified visits.",
       icon: <Users className="text-brand-500" size={24} />,
-      stat: "50+ Clients"
+      stat: "Auto Outreach"
     },
     {
-      title: "Transparent ROI Dashboard",
-      desc: "Show clients exactly what they're paying for. Real-time appointment tracking, revenue attribution, and call analytics. Build trust and justify your monthly retainer.",
+      title: "Real-Time Analytics",
+      desc: "Track every call, appointment, and dollar of revenue generated. See exactly what you're paying for with transparent ROI tracking and live performance metrics.",
       icon: <BarChart3 className="text-brand-500" size={24} />,
-      stat: "Live Analytics"
+      stat: "Live Metrics"
     }
   ];
 
@@ -288,10 +288,10 @@ const ValueProp = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-20 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
-            The Agency Growth Platform Built for <span className="text-brand-500">Scale</span>
+            Fill Your Schedule While You <span className="text-brand-500">Focus on Patients</span>
           </h2>
           <p className="text-zinc-300 max-w-2xl mx-auto text-lg">
-            Turn your agency into a recurring revenue machine. White-label our AI, deliver guaranteed results, and scale to 6-7 figures without operational chaos.
+            AI automation that handles patient acquisition and reactivation 24/7. Get guaranteed appointments without hiring more staff or spending hours on marketing.
           </p>
         </div>
 
@@ -325,11 +325,11 @@ const Process = () => {
              <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-20">
                      <div className="inline-block px-3 py-1 mb-4 text-xs font-mono text-brand-500 border border-brand-500/20 rounded bg-brand-500/5">
-                        PARTNER WORKFLOW
+                        SIMPLE SETUP
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Launch in 48 Hours. Scale Forever.</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Live in 48 Hours. Guaranteed Results.</h2>
                     <p className="text-zinc-300 max-w-2xl mx-auto text-lg">
-                        We handle the technology. You handle the client relationships. Together, we build recurring revenue.
+                        No complex integrations. No long onboarding. Just plug in our AI and start booking appointments.
                     </p>
                 </div>
 
@@ -338,9 +338,9 @@ const Process = () => {
                     <div className="hidden md:block absolute top-12 left-[16%] right-[16%] h-px bg-gradient-to-r from-transparent via-brand-700/50 to-transparent border-t border-dashed border-zinc-700" />
 
                     {[
-                        { title: "Agency Onboarding", desc: "We set up your white-label platform with custom branding, domain, and client portal in under 24 hours.", step: "01" },
-                        { title: "Client Deployment", desc: "Send us your dental practice clients. We deploy AI reception, database reactivation, and analytics within 48 hours per client.", step: "02" },
-                        { title: "Recurring Revenue", desc: "Clients get guaranteed results. You get retention, referrals, and recurring income. We handle support and updates.", step: "03" }
+                        { title: "Quick Setup", desc: "We connect to your phone system and practice management software in under 24 hours. No technical skills required.", step: "01" },
+                        { title: "AI Training", desc: "Our AI learns your practice's services, availability, and preferences. We train it to sound natural and book appointments accurately.", step: "02" },
+                        { title: "Guaranteed Results", desc: "Your AI starts answering calls and reactivating patients. Hit 20+ appointments or pay nothing. It's that simple.", step: "03" }
                     ].map((item, i) => (
                         <div key={i} className="relative flex flex-col items-center text-center group">
                             {/* Circle */}
@@ -369,23 +369,23 @@ const Proof = () => {
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="mb-16 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Agency Success Stories</h2>
-            <p className="text-zinc-300 max-w-2xl mx-auto text-lg">Real results from dental marketing agencies using DentaScale to scale their business and retain more clients.</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Real Results from Real Practices</h2>
+            <p className="text-zinc-300 max-w-2xl mx-auto text-lg">See how dental practices across the country are filling their schedules with DentaScale's AI automation.</p>
         </div>
 
         {/* Bento Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-          {/* Box 1: Agency Revenue Impact (Large) */}
+          {/* Box 1: Revenue Impact (Large) */}
           <div className="md:col-span-2 bg-zinc-900/30 border border-zinc-800 rounded-2xl p-8 relative overflow-hidden group">
              <div className="flex justify-between items-start mb-8 relative z-10">
                  <div>
-                    <h3 className="text-zinc-400 text-sm font-medium uppercase tracking-wider mb-1">Combined Agency MRR Added</h3>
-                    <div className="text-5xl font-bold text-white">$840,000+</div>
-                    <p className="text-zinc-400 text-sm mt-2">Across 127 agency partners</p>
+                    <h3 className="text-zinc-400 text-sm font-medium uppercase tracking-wider mb-1">Total Revenue Generated</h3>
+                    <div className="text-5xl font-bold text-white">$127M+</div>
+                    <p className="text-zinc-400 text-sm mt-2">For 2,400+ dental practices</p>
                  </div>
                  <div className="bg-brand-500/10 text-brand-400 border border-brand-500/20 px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">
-                    <TrendingUp size={16} /> +156%
+                    <TrendingUp size={16} /> +243%
                  </div>
              </div>
 
@@ -407,13 +407,13 @@ const Proof = () => {
              <div className="absolute inset-0 bg-grid-pattern-small opacity-0 group-hover:opacity-10 transition-opacity duration-500 pointer-events-none" />
           </div>
 
-          {/* Box 2: Client Retention Stat */}
+          {/* Box 2: Answer Rate */}
           <div className="bg-zinc-900/30 border border-zinc-800 rounded-2xl p-6 flex flex-col justify-center relative overflow-hidden group">
              <div className="absolute top-0 right-0 p-4 opacity-20 group-hover:opacity-100 transition-opacity duration-500 text-brand-500">
-                <Users size={40} />
+                <Bot size={40} />
              </div>
-             <div className="text-3xl font-bold text-white mb-2">95%</div>
-             <div className="text-zinc-400 text-sm">Avg. Client Retention</div>
+             <div className="text-3xl font-bold text-white mb-2">98.7%</div>
+             <div className="text-zinc-400 text-sm">Call Answer Rate</div>
           </div>
 
           {/* Box 3: Appointments Stat */}
@@ -422,16 +422,16 @@ const Proof = () => {
                 <CalendarCheck size={40} />
              </div>
              <div className="text-3xl font-bold text-white mb-2">48k+</div>
-             <div className="text-zinc-400 text-sm">Appointments Delivered</div>
+             <div className="text-zinc-400 text-sm">Appointments Booked</div>
           </div>
 
-          {/* Box 4: Agency Partners */}
+          {/* Box 4: Active Practices */}
           <div className="bg-zinc-900/30 border border-zinc-800 rounded-2xl p-6 flex flex-col justify-center relative overflow-hidden group">
              <div className="absolute top-0 right-0 p-4 opacity-20 group-hover:opacity-100 transition-opacity duration-500 text-brand-500">
                 <Sparkles size={40} />
              </div>
-             <div className="text-3xl font-bold text-white mb-2">127+</div>
-             <div className="text-zinc-400 text-sm">Agency Partners</div>
+             <div className="text-3xl font-bold text-white mb-2">2,400+</div>
+             <div className="text-zinc-400 text-sm">Active Practices</div>
           </div>
 
           {/* Box 5: Time to Launch */}
@@ -440,7 +440,7 @@ const Proof = () => {
                 <Zap size={40} />
              </div>
              <div className="text-3xl font-bold text-white mb-2">&lt;48hrs</div>
-             <div className="text-zinc-400 text-sm">Avg. Client Onboarding</div>
+             <div className="text-zinc-400 text-sm">Setup Time</div>
           </div>
 
           {/* Box 6: Featured Testimonial (Wide) */}
@@ -449,12 +449,12 @@ const Proof = () => {
                   <Quote size={24} />
               </div>
               <div className="flex-1">
-                  <p className="text-lg md:text-xl text-zinc-300 italic mb-4">"DentaScale transformed our agency. We went from promising results to guaranteeing them. <span className="text-white font-semibold">Our client retention jumped from 62% to 94% in 6 months.</span> The white-label platform makes us look like we built it ourselves. Best partner decision we ever made."</p>
+                  <p className="text-lg md:text-xl text-zinc-300 italic mb-4">"DentaScale filled our schedule when we needed it most. <span className="text-white font-semibold">We went from 12 open appointment slots per week to being fully booked in under 60 days.</span> The AI sounds so natural that patients don't even realize they're talking to a bot. Absolute game-changer for our practice."</p>
                   <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-full bg-zinc-700 flex items-center justify-center font-bold text-white">SM</div>
+                      <div className="w-10 h-10 rounded-full bg-zinc-700 flex items-center justify-center font-bold text-white">DR</div>
                       <div>
-                          <div className="font-bold text-white">Sarah Mitchell</div>
-                          <div className="text-xs text-zinc-400">Founder, Dental Growth Partners</div>
+                          <div className="font-bold text-white">Dr. Robert Chen</div>
+                          <div className="text-xs text-zinc-400">Owner, Pacific Dental Group</div>
                       </div>
                   </div>
               </div>
@@ -467,15 +467,15 @@ const Proof = () => {
   );
 };
 
-// 7. Agency Revenue Calculator (Form)
+// 7. Lost Revenue Calculator (Form)
 const LostRevenueCalculator = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
-    currentClients: '',
-    avgClientMRR: '',
-    retentionRate: ''
+    missedCalls: '',
+    avgAppointmentValue: '',
+    inactivePatients: ''
   });
 
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -509,24 +509,22 @@ const LostRevenueCalculator = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // Calculate potential additional MRR
+  // Calculate lost revenue
   const calculatePotential = () => {
-    const clients = parseInt(formData.currentClients) || 0;
-    const mrr = parseInt(formData.avgClientMRR) || 0;
-    const retention = parseInt(formData.retentionRate) || 0;
+    const missedCalls = parseInt(formData.missedCalls) || 0;
+    const avgValue = parseInt(formData.avgAppointmentValue) || 0;
+    const inactivePatients = parseInt(formData.inactivePatients) || 0;
 
-    // If they could add 10 more clients at their avg MRR
-    const potentialNewClients = 10;
-    const additionalMRR = potentialNewClients * mrr;
+    // Revenue from missed calls (assume 30% conversion)
+    const missedCallRevenue = missedCalls * 30 * 0.3 * avgValue;
 
-    // If retention improves to 95%
-    const improvedRetention = Math.max(95 - retention, 0);
-    const savedMRR = (clients * mrr * improvedRetention) / 100;
+    // Revenue from inactive patients (assume 15% reactivation)
+    const inactivePatientRevenue = inactivePatients * 0.15 * avgValue;
 
     return {
-      additionalMRR,
-      savedMRR,
-      total: additionalMRR + savedMRR
+      missedCallRevenue,
+      inactivePatientRevenue,
+      total: missedCallRevenue + inactivePatientRevenue
     };
   };
 
@@ -546,9 +544,9 @@ const LostRevenueCalculator = () => {
               <div className="inline-flex items-center justify-center p-3 bg-brand-500/10 rounded-full mb-4">
                 <Calculator className="text-brand-600" size={32} />
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-4">Calculate Your Agency <span className="text-brand-600">Revenue Potential</span></h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-4">Calculate Your <span className="text-brand-600">Lost Revenue</span></h2>
               <p className="text-zinc-600 max-w-lg mx-auto">
-                See how much additional MRR you could generate by adding 10 clients with DentaScale's white-label platform.
+                See how much revenue you're losing each month from missed calls and inactive patients.
               </p>
             </div>
 
@@ -557,22 +555,22 @@ const LostRevenueCalculator = () => {
                 <div className="w-16 h-16 bg-brand-100 rounded-full flex items-center justify-center mb-6">
                   <CheckCircle2 className="text-brand-600" size={32} />
                 </div>
-                <h3 className="text-2xl font-bold text-zinc-900 mb-2">Your Agency Growth Plan is Ready</h3>
+                <h3 className="text-2xl font-bold text-zinc-900 mb-2">Your Revenue Recovery Plan is Ready</h3>
                 <p className="text-zinc-600 max-w-md">
-                  We've sent your personalized revenue projections and agency partnership details to <span className="text-zinc-900 font-medium">{formData.email}</span>.
+                  We've sent your personalized lost revenue analysis and recovery strategy to <span className="text-zinc-900 font-medium">{formData.email}</span>.
                 </p>
                 {potential.total > 0 && (
                   <div className="mt-8 p-6 bg-brand-50 rounded-xl border-2 border-brand-200">
-                    <div className="text-sm text-brand-700 font-medium mb-2">Potential Additional MRR</div>
-                    <div className="text-4xl font-bold text-brand-600">${potential.total.toLocaleString()}/mo</div>
+                    <div className="text-sm text-brand-700 font-medium mb-2">Monthly Lost Revenue</div>
+                    <div className="text-4xl font-bold text-brand-600">${potential.total.toLocaleString()}</div>
                   </div>
                 )}
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-                 {/* Agency Name */}
+                 {/* Practice Name */}
                  <div className="space-y-2">
-                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Agency Name</label>
+                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Practice Name</label>
                     <div className="relative group">
                       <User className="absolute left-3 top-3 text-zinc-400 group-focus-within:text-brand-600 transition-colors" size={18} />
                       <input
@@ -581,7 +579,7 @@ const LostRevenueCalculator = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="Dental Growth Partners"
+                        placeholder="Smile Dental Group"
                         className="w-full bg-zinc-50 border border-zinc-200 rounded-lg py-2.5 pl-10 pr-4 text-zinc-900 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all placeholder:text-zinc-400"
                       />
                     </div>
@@ -598,7 +596,7 @@ const LostRevenueCalculator = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="founder@agency.com"
+                        placeholder="doctor@practice.com"
                         className="w-full bg-zinc-50 border border-zinc-200 rounded-lg py-2.5 pl-10 pr-4 text-zinc-900 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all placeholder:text-zinc-400"
                       />
                     </div>
@@ -620,54 +618,52 @@ const LostRevenueCalculator = () => {
                     </div>
                  </div>
 
-                 {/* Current Clients */}
+                 {/* Missed Calls */}
                  <div className="space-y-2">
-                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Number of Current Clients</label>
+                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Missed Calls Per Month</label>
                     <div className="relative group">
-                      <Users className="absolute left-3 top-3 text-zinc-400 group-focus-within:text-brand-600 transition-colors" size={18} />
+                      <Smartphone className="absolute left-3 top-3 text-zinc-400 group-focus-within:text-brand-600 transition-colors" size={18} />
                       <input
                         required
                         type="number"
-                        name="currentClients"
-                        value={formData.currentClients}
+                        name="missedCalls"
+                        value={formData.missedCalls}
                         onChange={handleChange}
-                        placeholder="25"
+                        placeholder="50"
                         className="w-full bg-zinc-50 border border-zinc-200 rounded-lg py-2.5 pl-10 pr-4 text-zinc-900 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all placeholder:text-zinc-400"
                       />
                     </div>
                  </div>
 
-                 {/* Avg Client MRR */}
+                 {/* Avg Appointment Value */}
                  <div className="space-y-2">
-                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Avg. Client Monthly Revenue ($)</label>
+                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Avg. Appointment Value ($)</label>
                     <div className="relative group">
                       <DollarSign className="absolute left-3 top-3 text-zinc-400 group-focus-within:text-brand-600 transition-colors" size={18} />
                       <input
                         required
                         type="number"
-                        name="avgClientMRR"
-                        value={formData.avgClientMRR}
+                        name="avgAppointmentValue"
+                        value={formData.avgAppointmentValue}
                         onChange={handleChange}
-                        placeholder="2000"
+                        placeholder="350"
                         className="w-full bg-zinc-50 border border-zinc-200 rounded-lg py-2.5 pl-10 pr-4 text-zinc-900 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all placeholder:text-zinc-400"
                       />
                     </div>
                  </div>
 
-                 {/* Retention Rate */}
+                 {/* Inactive Patients */}
                  <div className="space-y-2">
-                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Current Client Retention Rate (%)</label>
+                    <label className="text-xs font-bold uppercase text-zinc-500 ml-1">Inactive Patients (6+ months)</label>
                     <div className="relative group">
-                      <BarChart3 className="absolute left-3 top-3 text-zinc-400 group-focus-within:text-brand-600 transition-colors" size={18} />
+                      <Users className="absolute left-3 top-3 text-zinc-400 group-focus-within:text-brand-600 transition-colors" size={18} />
                       <input
                         required
                         type="number"
-                        name="retentionRate"
-                        value={formData.retentionRate}
+                        name="inactivePatients"
+                        value={formData.inactivePatients}
                         onChange={handleChange}
-                        placeholder="70"
-                        min="0"
-                        max="100"
+                        placeholder="200"
                         className="w-full bg-zinc-50 border border-zinc-200 rounded-lg py-2.5 pl-10 pr-4 text-zinc-900 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all placeholder:text-zinc-400"
                       />
                     </div>
@@ -686,7 +682,7 @@ const LostRevenueCalculator = () => {
                             Calculating...
                          </>
                        ) : (
-                         <>Calculate Agency Potential <ArrowRight size={18} /></>
+                         <>Calculate Lost Revenue <ArrowRight size={18} /></>
                        )}
                      </span>
                    </button>
@@ -710,27 +706,27 @@ const CTA = () => {
 
        <div className="max-w-4xl mx-auto px-6 relative z-10">
          <h2 className="text-5xl md:text-7xl font-bold text-white mb-8 tracking-tight">
-           Ready To Scale Your Agency?
+           Ready To Fill Your Schedule?
          </h2>
          <p className="text-xl text-zinc-300 mb-12 max-w-2xl mx-auto">
-           Join 127+ dental marketing agencies using DentaScale to deliver guaranteed results, boost retention, and build predictable recurring revenue.
+           Join 2,400+ dental practices using DentaScale's AI to book guaranteed appointments, reactivate patients, and grow revenue on autopilot.
          </p>
 
          <div className="flex flex-col sm:flex-row justify-center gap-6">
            <button className="group relative px-10 py-5 bg-white text-black rounded-lg font-bold text-lg hover:scale-105 transition-all duration-300 overflow-hidden shadow-[0_0_60px_-5px_rgba(249,115,22,0.8),0_0_30px_-5px_rgba(249,115,22,0.6)] hover:shadow-[0_0_80px_-5px_rgba(249,115,22,1),0_0_40px_-5px_rgba(249,115,22,0.8)]">
              {/* Animated glow ring */}
              <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 via-brand-400 to-brand-500 rounded-lg opacity-30 blur-xl group-hover:opacity-50 transition-opacity duration-300 animate-pulse-slow" />
-             <span className="relative z-10 flex items-center gap-2">Book Agency Demo <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" /></span>
+             <span className="relative z-10 flex items-center gap-2">Get Started Free <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" /></span>
            </button>
            <button className="px-10 py-5 bg-transparent border border-zinc-700 text-zinc-300 rounded-lg font-bold text-lg hover:bg-zinc-900 hover:text-white hover:border-zinc-600 hover:shadow-[0_0_30px_-5px_rgba(249,115,22,0.3)] transition-all">
-             View Partnership Tiers
+             See Pricing
            </button>
          </div>
 
          <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-zinc-400 text-sm font-mono">
-            <span className="flex items-center gap-2"><CheckCircle2 size={14} className="text-brand-500" /> WHITE-LABEL PLATFORM</span>
-            <span className="flex items-center gap-2"><CheckCircle2 size={14} className="text-brand-500" /> 48-HOUR ONBOARDING</span>
-            <span className="flex items-center gap-2"><CheckCircle2 size={14} className="text-brand-500" /> DEDICATED SUPPORT</span>
+            <span className="flex items-center gap-2"><CheckCircle2 size={14} className="text-brand-500" /> NO CONTRACTS</span>
+            <span className="flex items-center gap-2"><CheckCircle2 size={14} className="text-brand-500" /> 48-HOUR SETUP</span>
+            <span className="flex items-center gap-2"><CheckCircle2 size={14} className="text-brand-500" /> GUARANTEED RESULTS</span>
          </div>
        </div>
 
