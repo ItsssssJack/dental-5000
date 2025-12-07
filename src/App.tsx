@@ -104,7 +104,7 @@ const MeteorShower = () => {
       {meteors.map((meteor) => (
         <span
           key={meteor.id}
-          className="absolute h-0.5 w-0.5 rounded-[9999px] bg-slate-500 shadow-[0_0_0_1px_#ffffff10] rotate-[215deg] animate-meteor"
+          className="absolute h-1 w-1 rounded-full bg-white shadow-[0_0_8px_2px_rgba(249,115,22,0.8)] rotate-[215deg] animate-meteor"
           style={{
             top: 0,
             left: `${Math.floor(meteor.position * 100)}%`,
@@ -112,8 +112,8 @@ const MeteorShower = () => {
             animationDuration: `${(Math.random() * 2 + 3).toFixed(2)}s`,
           }}
         >
-          {/* Meteor Tail */}
-          <div className="pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-brand-500 to-transparent" />
+          {/* Meteor Tail with glow */}
+          <div className="pointer-events-none absolute top-1/2 -z-10 h-[2px] w-[80px] -translate-y-1/2 bg-gradient-to-r from-brand-400 via-brand-500 to-transparent opacity-90 blur-[0.5px]" />
         </span>
       ))}
     </div>
@@ -217,13 +217,15 @@ const Hero = () => {
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center gap-6 w-full sm:w-auto">
-          <button className="relative w-full sm:w-auto px-8 py-4 bg-white text-black rounded-lg font-semibold text-lg hover:bg-zinc-100 transition-colors overflow-hidden group shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)]">
+          <button className="relative w-full sm:w-auto px-8 py-4 bg-white text-black rounded-lg font-semibold text-lg hover:bg-zinc-100 hover:scale-105 transition-all duration-300 overflow-hidden group shadow-[0_0_60px_-5px_rgba(249,115,22,0.8),0_0_30px_-5px_rgba(249,115,22,0.6)] hover:shadow-[0_0_80px_-5px_rgba(249,115,22,1),0_0_40px_-5px_rgba(249,115,22,0.8)]">
+            {/* Animated glow ring */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 via-brand-400 to-brand-500 rounded-lg opacity-30 blur-xl group-hover:opacity-50 transition-opacity duration-300 animate-pulse-slow" />
             <span className="flex items-center justify-center gap-2 relative z-10">
               Book Agency Demo <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </span>
           </button>
 
-          <button className="w-full sm:w-auto px-8 py-4 bg-transparent border border-zinc-700 text-zinc-300 rounded-lg font-medium hover:bg-zinc-900 hover:text-white hover:border-zinc-600 transition-all flex items-center justify-center gap-2">
+          <button className="w-full sm:w-auto px-8 py-4 bg-transparent border border-zinc-700 text-zinc-300 rounded-lg font-medium hover:bg-zinc-900 hover:text-white hover:border-zinc-600 hover:shadow-[0_0_30px_-5px_rgba(249,115,22,0.3)] transition-all flex items-center justify-center gap-2">
             View Agency Pricing <ArrowUpRight size={16} />
           </button>
         </div>
@@ -715,11 +717,12 @@ const CTA = () => {
          </p>
 
          <div className="flex flex-col sm:flex-row justify-center gap-6">
-           <button className="group relative px-10 py-5 bg-white text-black rounded-lg font-bold text-lg hover:scale-105 transition-transform overflow-hidden shadow-[0_0_50px_-10px_rgba(255,255,255,0.3)]">
-             <span className="relative z-10 flex items-center gap-2">Book Agency Demo <ArrowRight size={18} /></span>
-             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-zinc-200 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+           <button className="group relative px-10 py-5 bg-white text-black rounded-lg font-bold text-lg hover:scale-105 transition-all duration-300 overflow-hidden shadow-[0_0_60px_-5px_rgba(249,115,22,0.8),0_0_30px_-5px_rgba(249,115,22,0.6)] hover:shadow-[0_0_80px_-5px_rgba(249,115,22,1),0_0_40px_-5px_rgba(249,115,22,0.8)]">
+             {/* Animated glow ring */}
+             <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 via-brand-400 to-brand-500 rounded-lg opacity-30 blur-xl group-hover:opacity-50 transition-opacity duration-300 animate-pulse-slow" />
+             <span className="relative z-10 flex items-center gap-2">Book Agency Demo <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" /></span>
            </button>
-           <button className="px-10 py-5 bg-transparent border border-zinc-700 text-zinc-300 rounded-lg font-bold text-lg hover:bg-zinc-900 hover:text-white hover:border-zinc-600 transition-all">
+           <button className="px-10 py-5 bg-transparent border border-zinc-700 text-zinc-300 rounded-lg font-bold text-lg hover:bg-zinc-900 hover:text-white hover:border-zinc-600 hover:shadow-[0_0_30px_-5px_rgba(249,115,22,0.3)] transition-all">
              View Partnership Tiers
            </button>
          </div>
