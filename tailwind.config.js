@@ -21,14 +21,13 @@ export default {
           200: '#fed7aa',
           300: '#fdba74',
           400: '#fb923c',
-          500: '#f97316',
-          600: '#ea580c',
+          500: '#f97316', // Primary orange
+          600: '#ea580c', // Deep orange
           700: '#c2410c',
           800: '#9a3412',
           900: '#7c2d12',
           950: '#431407',
         },
-        accent: '#F59E0B',
       },
       animation: {
         'blob': 'blob 10s infinite',
@@ -38,6 +37,7 @@ export default {
         'float': 'float 6s ease-in-out infinite',
         'drift': 'drift 20s linear infinite',
         'meteor': 'meteor 5s linear infinite',
+        'spin-slow': 'spin 3s linear infinite',
       },
       keyframes: {
         blob: {
